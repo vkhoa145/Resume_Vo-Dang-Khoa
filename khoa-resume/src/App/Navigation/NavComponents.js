@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import '../Styles/Nav_scss/index.scss'
+import nav from './nav.module.scss'
 
 
 export class NavComponents extends Component {
   render() {
     return (
-      <div className="nav-header container">
+      <div className={`nav-header container ${nav.nav}`}>
         <span>Navigation</span>
       </div>
     )

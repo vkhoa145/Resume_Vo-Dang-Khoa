@@ -1,14 +1,11 @@
-import Container from './App/WebContainer'
-import './App.css';
 
+import NavBar from './App/Navigation'
+import About from './App/About'
 function App() {
   return (
-    <div className="App">
-      <h1>Khoa</h1>
-      <Container/>
-     
-
-
+    <div className="App bg-dark container">
+      <NavBar/>
+      <About/>
     </div>
   );
 }
